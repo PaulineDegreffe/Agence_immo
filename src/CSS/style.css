@@ -1,0 +1,115 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html,
+    body {
+        font-family: "Montserrat", sans-serif;
+        background-color: rgb(241, 233, 233);
+    }
+    /* Header */
+    
+    header {
+        height: 100px;
+        background-color: #333;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header logo {
+        color: yellow;
+    }
+    
+    header h1 {
+        font-family: "Long Cang", cursive;
+        color: white;
+        margin-left: 20px;
+        font-size: 3rem;
+    }
+    
+    nav {
+        margin-right: 20px;
+        width: 300px;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        list-style: none;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    /* Main */
+    
+    span {
+        color: orange;
+    }
+    
+    .background {
+        background-image: url(/src/img/frame.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 56rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .textbox1 {
+        color: white;
+        margin: 0 21.875rem;
+    }
+    
+    .textbox1 h2 {
+        font-size: 3.125rem;
+        margin-bottom: 1.25rem;
+        margin-top: 20rem;
+        text-align: center;
+    }
+    
+    .textbox1 p {
+        color: gray;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    section h3 {
+        font-size: 2rem;
+        color: grey;
+        margin-top: 15rem;
+        margin-left: 2rem
+    }
+    
+    .containeur div {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .containeur div img {
+        flex: 2
+    }
+    
+    hr {
+        margin: 0 auto;
+        width: 80px;
+        background-color: black;
+        display: block;
+        height: 4px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .containeur div p {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        flex: 1
+    }
